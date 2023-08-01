@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor's portal website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="mx-0 md:mx-8">
+      <!-- navbar section -->
+      <nav
+        class="navbar flex justify-between items-center px-4 md:px-[68px] py-[10px]"
+      >
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl font-normal"
+            >Doctors Portal</a
+          >
+        </div>
+        <div class="hidden md:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="pl-5" href="#">Home</a></li>
+            <li><a class="pl-5" href="#">About</a></li>
+            <li><a class="pl-5" href="#">Appointment</a></li>
+            <li><a class="pl-5" href="#">Reviews</a></li>
+            <li><a class="pl-5" href="#">Contact Us</a></li>
+            <li><a class="pl-5" href="#">Login</a></li>
+          </ul>
+        </div>
+        <img class="w-7 h-6 md:hidden" src="img/menu.svg" alt="" />
+      </nav>
+      <!-- hero section -->
+      <div
+        class="flex flex-col md:flex-row-reverse items-center justify-between px-9 md:min-h-screen"
+      >
+        <img
+          src="img/banner-bg.png"
+          class="hidden md:block md:absolute -z-10 md:left-0"
+          alt=""
+        />
+        <div>
+          <img class="my-16" src="img/hero.png" alt="" />
+        </div>
+
+        <div>
+          <h1 class="text-5xl font-bold">
+            Your New Smile Starts<br />
+            Here
+          </h1>
+          <p class="mt-4 mb-8">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem<br />
+            Ipsum has been the industry's standard dummy text ever since the
+          </p>
+          <button
+            class="text-white p-4 font-bold rounded-lg bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC]"
+          >
+            GET STARTED
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-20">
+        <div
+          class="flex flex-col md:flex-row justify-start gap-6 items-center text-white rounded-2xl bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] px-8 py-14 text-center md:text-left mx-8 md:mx-0"
+        >
+          <img src="img/clock.svg" alt="" />
+          <div>
+            <h3 class="text-xl font-bold mb-4">Opening Hours</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of<br />
+              the pri
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row justify-start gap-6 items-center text-white rounded-2xl bg-[#3A4256] px-8 py-14 text-center md:text-left mx-8 md:mx-0"
+        >
+          <img src="img/location.svg" alt="" />
+          <div>
+            <h3 class="text-xl font-bold mb-4">Visit our location</h3>
+            <p>Brooklyn, NY 10036, United States</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row justify-start gap-6 items-center text-white rounded-2xl bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] px-8 py-14 text-center md:text-left mx-8 md:mx-0"
+        >
+          <img src="img/clock.svg" alt="" />
+          <div>
+            <h3 class="text-xl font-bold mb-4">Opening Hours</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of<br />
+              the pri
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
